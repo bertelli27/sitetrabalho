@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Viagem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/logo.png">
+</head>
+
+<body>
+    <header>
+        <h1>BUSSE TRIP</h1>
+        <nav>
+            <ul>
+                <li><a href="#egito" class="smooth-scroll">Egito</a></li>
+                <li><a href="#paris" class="smooth-scroll">Paris</a></li>
+                <li><a href="#grecia" class="smooth-scroll">Grécia</a></li>
+                <li><a href="#maldivas" class="smooth-scroll">Maldivas</a></li>
+                <li><a href="#italia" class="smooth-scroll">Itália</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="egito">
+            <h2>Egito</h2>
+            <p>O Egito encanta com suas Pirâmides de Gizé, a Esfinge e templos como Karnak. O Rio Nilo oferece cruzeiros, e o Mar Vermelho é ideal para mergulho. No Cairo, o Museu Egípcio guarda tesouros como os de Tutancâmon. Sua cultura vibrante se reflete na gastronomia e nos mercados. Com mistério, aventura e beleza, é um destino inesquecível.</p>
+            <div class="galeria-container">
+                <button class="prev" onclick="scrollGallery('galeria-egito', 'left')">❮</button>
+                <div class="galeria" id="galeria-egito">
+                    <img src="imagens/egito1.jpg" alt="Egito 1">
+                    <img src="imagens/egito2.jpg" alt="Egito 2">
+                    <img src="imagens/egito3.jpg" alt="Egito 3">
+                    <img src="imagens/egito4.jpg" alt="Egito 4">
+                    <img src="imagens/egito5.jpg" alt="Egito 5">
+                </div>
+                <button class="next" onclick="scrollGallery('galeria-egito', 'right')">❯</button>
+            </div>
+        </section>
+
+        <section id="paris">
+            <h2>Paris</h2>
+            <p>A cidade da luz e do romance, cheia de cultura e gastronomia incrível. Além da Torre Eiffel, a cidade oferece museus renomados, como o Louvre e o Musée d'Orsay, além de bairros históricos como Montmartre.</p>
+            <div class="galeria-container">
+                <button class="prev" onclick="scrollGallery('galeria-paris', 'left')">❮</button>
+                <div class="galeria" id="galeria-paris">
+                    <img src="imagens/paris1.jpg" alt="Paris 1">
+                    <img src="imagens/paris2.jpg" alt="Paris 2">
+                    <img src="imagens/paris3.jpg" alt="Paris 3">
+                    <img src="imagens/paris4.jpg" alt="Paris 4">
+                    <img src="imagens/paris5.jpg" alt="Paris 5">
+                </div>
+                <button class="next" onclick="scrollGallery('galeria-paris', 'right')">❯</button>
+            </div>
+        </section>
+
+        <section id="grecia">
+            <h2>Grécia</h2>
+            <p>A Grécia oferece belas paisagens, ruínas históricas e uma culinária deliciosa. Visite as ilhas como Santorini e Mykonos, ou explore a antiga Atenas com seu famoso Partenon.</p>
+            <div class="galeria-container">
+                <button class="prev" onclick="scrollGallery('galeria-grecia', 'left')">❮</button>
+                <div class="galeria" id="galeria-grecia">
+                    <img src="imagens/grecia1.jpg" alt="Grécia 1">
+                    <img src="imagens/grecia2.jpg" alt="Grécia 2">
+                    <img src="imagens/grecia3.jpg" alt="Grécia 3">
+                    <img src="imagens/grecia4.jpg" alt="Grécia 4">
+                    <img src="imagens/grecia5.jpg" alt="Grécia 5">
+                </div>
+                <button class="next" onclick="scrollGallery('galeria-grecia', 'right')">❯</button>
+            </div>
+        </section>
+
+        <section id="maldivas">
+            <h2>Maldivas</h2>
+            <p>As Maldivas são um paraíso tropical com águas cristalinas e praias deslumbrantes, ideais para relaxamento e mergulhos em seus recifes de corais. Aproveite resorts luxuosos e uma culinária exótica.</p>
+            <div class="galeria-container">
+                <button class="prev" onclick="scrollGallery('galeria-maldivas', 'left')">❮</button>
+                <div class="galeria" id="galeria-maldivas">
+                    <img src="imagens/maldivas1.jpg" alt="Maldivas 1">
+                    <img src="imagens/maldivas2.jpg" alt="Maldivas 2">
+                    <img src="imagens/maldivas3.jpg" alt="Maldivas 3">
+                    <img src="imagens/maldivas4.jpg" alt="Maldivas 4">
+                    <img src="imagens/maldivas5.jpg" alt="Maldivas 5">
+                </div>
+                <button class="next" onclick="scrollGallery('galeria-maldivas', 'right')">❯</button>
+            </div>
+        </section>
+
+        <section id="italia">
+            <h2>Itália</h2>
+            <p>A Itália é famosa por sua história, arte, moda e uma gastronomia incomparável. Visite Roma, Veneza, Florença e outras cidades icônicas, explorando a herança cultural e arquitetônica da região.</p>
+            <div class="galeria-container">
+                <button class="prev" onclick="scrollGallery('galeria-italia', 'left')">❮</button>
+                <div class="galeria" id="galeria-italia">
+                    <img src="imagens/italia1.jpg" alt="Itália 1">
+                    <img src="imagens/italia2.jpg" alt="Itália 2">
+                    <img src="imagens/italia3.jpg" alt="Itália 3">
+                    <img src="imagens/italia4.jpg" alt="Itália 4">
+                    <img src="imagens/italia5.jpg" alt="Itália 5">
+                </div>
+                <button class="next" onclick="scrollGallery('galeria-italia', 'right')">❯</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Guia de Viagem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="animacoes.js"></script>
+</body>
+
+</html>
