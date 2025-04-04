@@ -28,11 +28,4 @@ function scrollGallery(galeriaId, direction) {
         galeria.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
 
-    // Detecta quando a rolagem atinge o final ou início e reinicia a posição
-    setTimeout(() => {
-        if (galeria.scrollLeft + galeria.clientWidth >= galeria.scrollWidth) {
-        } else if (galeria.scrollLeft === 0) {
-       
-        }
-    }, 600); // Pequeno delay para não ser perceptível ao usuário
-}
+} 
